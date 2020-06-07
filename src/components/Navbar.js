@@ -6,9 +6,9 @@ export default function Navbar() {
     <div>
       <nav className="nav-wrapper red darken-3">
         <div className="container">
-          <a href="/" className="brand-logo">
+          <Link to="/" className="brand-logo">
             Poke'Times
-          </a>
+          </Link>
           <ul className="right">
             <li>
               <Link to="/">Home</Link>
